@@ -2,5 +2,30 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
-  align-content: center;
+  justify-content: center;
+  padding: 1.75rem clamp(1.5rem, 13.239vw - 1.603rem, 10.313rem);
+  background-color: #fff;
+}
+header .header-logo {
+  align-self: center;
+}
+header nav {
+  justify-self: center;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 37px;
+}
+header nav ul li {
+  list-style-type: none;
+}
+header nav ul li a {
+  text-decoration: none;
+}
+header .invite-header-link {
+  justify-self: end;
 }
