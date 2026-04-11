@@ -25,38 +25,338 @@
     </nav>
     <a href="pricing.html" class="invite-header-link">Get an invite</a>
   </header>
+  <section class="page-hero">
+    <picture>
+      <source srcset="./assets/pricing/desktop/hero.jpg"
+        media="(width >= 1440px)">
+      <source srcset="./assets/pricing/tablet/hero.jpg"
+        media="(width >= 768px)">
+      <img src="./assets/pricing/mobile/hero.jpg"
+        alt="A zoomed in picture of a man holding a camera.">
+    </picture>
+    <div class="page-hero_copy">
+      <h1>Pricing</h1>
+      <p> Create a your stories, Photosnap is a platform for photographers and
+        visual storytellers. It’s the simple way to create and share your
+        photos.</p>
+    </div>
+  </section>
+  <main class="pricing_container">
+    <div class="pricing-switch_container">
+      <span>Monthly</span>
+      <label class="toggle-switch" for="pricing-toggle">
+        <input type="checkbox" id="pricing-switch" class="pricing-switch"
+          name="pricing-toggle" />
+        <span class="slider" id="slider"></span>
+      </label>
+      <span>Yearly</span>
+    </div>
+    <section class="pricing-blocks-container">
+      <div class="pricing-block" id="pricing-block">
+        <h2>Basic</h2>
+        <p>Includes basic usage of our platform. Recommended for new and
+          aspiring photographers.</p>
+        <div class="cost-container">
+          <span>$19.00</span>
+          <span>per month</span>
+          <!-- $190.00 per year -->
+        </div>
+        <button class="pick-plan_btn">Pick Plan</button>
+      </div>
+      <div class="pricing-block__pro" id="pricing-block__pro">
+        <h2>Pro</h2>
+        <p>More advanced features available. Recommended for photography
+          veterans and professionals.</p>
+        <div class="cost-container">
+          <span>$39.00</span>
+          <span>per month</span>
+          <!-- $390.00 per year -->
+        </div>
+        <button class="pick-plan_btn">Pick Plan</button>
+      </div>
+      <div class="pricing-block" id="pricing-block">
+        <h2>Business</h2>
+        <p>Additional features available such as more detailed metrics.
+          Recommended for business owners.</p>
+        <div class="cost-container">
+          <span>$99.00</span>
+          <span>per year</span>
+          <!-- $990.00 per year -->
+        </div>
+        <button class="pick-plan_btn">Pick Plan</button>
+      </div>
+    </section>
+  </main>
+  <section class="comparison" style="display: none;">
+    <table>
+      <caption>Compare</caption>
+      <thead>
+        <tr>
+          <th scoper="col">The Features</th>
+          <th scoper="col">Basic</th>
+          <th scoper="col">Pro</th>
+          <th scoper="col">Business</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Unlimited Story Posting</th>
+          <td><svg xmlns="http://www.w3.org/2000/svg" width="18" height="15">
+              <path fill="none" stroke="#000" stroke-width="2"
+                d="M1 8.124L5.623 13 17 1" />
+            </svg></td>
+          <td><svg xmlns="http://www.w3.org/2000/svg" width="18" height="15">
+              <path fill="none" stroke="#000" stroke-width="2"
+                d="M1 8.124L5.623 13 17 1" />
+            </svg></td>
+          <td><svg xmlns="http://www.w3.org/2000/svg" width="18" height="15">
+              <path fill="none" stroke="#000" stroke-width="2"
+                d="M1 8.124L5.623 13 17 1" />
+            </svg></td>
+        </tr>
+        <tr>
+          <th scope="row">Unlimited Photo Upload</th>
+          <td><svg xmlns="http://www.w3.org/2000/svg" width="18" height="15">
+              <path fill="none" stroke="#000" stroke-width="2"
+                d="M1 8.124L5.623 13 17 1" />
+            </svg></td>
+          <td><svg xmlns="http://www.w3.org/2000/svg" width="18" height="15">
+              <path fill="none" stroke="#000" stroke-width="2"
+                d="M1 8.124L5.623 13 17 1" />
+            </svg></td>
+          <td><svg xmlns="http://www.w3.org/2000/svg" width="18" height="15">
+              <path fill="none" stroke="#000" stroke-width="2"
+                d="M1 8.124L5.623 13 17 1" />
+            </svg></td>
+        </tr>
+        <tr>
+          <th scope="row">Embedding Custom Content</th>
+          <td></td>
+          <td><svg xmlns="http://www.w3.org/2000/svg" width="18" height="15">
+              <path fill="none" stroke="#000" stroke-width="2"
+                d="M1 8.124L5.623 13 17 1" />
+            </svg></td>
+          <td><svg xmlns="http://www.w3.org/2000/svg" width="18" height="15">
+              <path fill="none" stroke="#000" stroke-width="2"
+                d="M1 8.124L5.623 13 17 1" />
+            </svg></td>
+        </tr>
+        <tr>
+          <th scope="row">Customize Metadata</th>
+          <td></td>
+          <td><svg xmlns="http://www.w3.org/2000/svg" width="18" height="15">
+              <path fill="none" stroke="#000" stroke-width="2"
+                d="M1 8.124L5.623 13 17 1" />
+            </svg></td>
+          <td><svg xmlns="http://www.w3.org/2000/svg" width="18" height="15">
+              <path fill="none" stroke="#000" stroke-width="2"
+                d="M1 8.124L5.623 13 17 1" />
+            </svg></td>
+        </tr>
+        <tr>
+          <th scope="row">Advanced Metrics</th>
+          <td></td>
+          <td></td>
+          <td><svg xmlns="http://www.w3.org/2000/svg" width="18" height="15">
+              <path fill="none" stroke="#000" stroke-width="2"
+                d="M1 8.124L5.623 13 17 1" />
+            </svg></td>
+        </tr>
+        <tr>
+          <th scope="row">Photo Downloads</th>
+          <td></td>
+          <td></td>
+          <td><svg xmlns="http://www.w3.org/2000/svg" width="18" height="15">
+              <path fill="none" stroke="#000" stroke-width="2"
+                d="M1 8.124L5.623 13 17 1" />
+            </svg></td>
+        </tr>
+        <tr>
+          <th scope="row">Search Engine Indexing</th>
+          <td></td>
+          <td></td>
+          <td><svg xmlns="http://www.w3.org/2000/svg" width="18" height="15">
+              <path fill="none" stroke="#000" stroke-width="2"
+                d="M1 8.124L5.623 13 17 1" />
+            </svg></td>
+        </tr>
+        <tr>
+          <th scope="row">Custom Analytics</th>
+          <td></td>
+          <td></td>
+          <td><svg xmlns="http://www.w3.org/2000/svg" width="18" height="15">
+              <path fill="none" stroke="#000" stroke-width="2"
+                d="M1 8.124L5.623 13 17 1" />
+            </svg></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section class="mobile_comparions">
+    <table>
+      <thead>
+        <tr>
+          <th>The Features</th>
+        </tr>
+      </thead>
 
-  Pricing
+      <tbody>
+        <tr>
+          <th>Unlimited story posting</th>
+          <td>
+            Basic
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15">
+              <path fill="none" stroke="#000" stroke-width="2"
+                d="M1 8.124L5.623 13 17 1" />
+            </svg>
+          </td>
+          <td>
+            Pro
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15">
+              <path fill="none" stroke="#000" stroke-width="2"
+                d="M1 8.124L5.623 13 17 1" />
+            </svg>
+          </td>
+          <td>
+            Business
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15">
+              <path fill="none" stroke="#000" stroke-width="2"
+                d="M1 8.124L5.623 13 17 1" />
+            </svg>
+          </td>
+        </tr>
+        <tr>
+          <th>Unlimited photo upload</th>
+          <td>
+            Basic
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15">
+              <path fill="none" stroke="#000" stroke-width="2"
+                d="M1 8.124L5.623 13 17 1" />
+            </svg>
+          </td>
+          <td>
+            Pro
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15">
+              <path fill="none" stroke="#000" stroke-width="2"
+                d="M1 8.124L5.623 13 17 1" />
+            </svg>
+          </td>
+          <td>
+            Business
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15">
+              <path fill="none" stroke="#000" stroke-width="2"
+                d="M1 8.124L5.623 13 17 1" />
+            </svg>
+          </td>
+        </tr>
+        <tr>
+          <th>Embedding Custom Content</th>
+          <td>
+            Basic
+          </td>
+          <td>
+            Pro
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15">
+              <path fill="none" stroke="#000" stroke-width="2"
+                d="M1 8.124L5.623 13 17 1" />
+            </svg>
+          </td>
+          <td>
+            Business
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15">
+              <path fill="none" stroke="#000" stroke-width="2"
+                d="M1 8.124L5.623 13 17 1" />
+            </svg>
+          </td>
+        </tr>
+        <tr>
+          <th>Customize Metadata</th>
+          <td>
+            Basic
+          </td>
+          <td>
+            Pro
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15">
+              <path fill="none" stroke="#000" stroke-width="2"
+                d="M1 8.124L5.623 13 17 1" />
+            </svg>
+          </td>
+          <td>
+            Business
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15">
+              <path fill="none" stroke="#000" stroke-width="2"
+                d="M1 8.124L5.623 13 17 1" />
+            </svg>
+          </td>
+        </tr>
+        <tr>
+          <th>Advanced Metrics</th>
+          <td>
+            Basic
+          </td>
+          <td>
+            Pro
+          </td>
+          <td>
+            Business
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15">
+              <path fill="none" stroke="#000" stroke-width="2"
+                d="M1 8.124L5.623 13 17 1" />
+            </svg>
+          </td>
+        </tr>
+        <tr>
+          <th>Photo Downloads</th>
+          <td>
+            Basic
+          </td>
+          <td>
+            Pro
+          </td>
+          <td>
+            Business
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15">
+              <path fill="none" stroke="#000" stroke-width="2"
+                d="M1 8.124L5.623 13 17 1" />
+            </svg>
+          </td>
+        </tr>
+        <tr>
+          <th>Search Engine Indexing</th>
+          <td>
+            Basic
+          </td>
+          <td>
+            Pro
+          </td>
+          <td>
+            Business
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15">
+              <path fill="none" stroke="#000" stroke-width="2"
+                d="M1 8.124L5.623 13 17 1" />
+            </svg>
+          </td>
+        </tr>
+        <tr>
+          <th>Custom Analytics</th>
+          <td>
+            Basic
+          </td>
+          <td>
+            Pro
+          </td>
+          <td>
+            Business
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15">
+              <path fill="none" stroke="#000" stroke-width="2"
+                d="M1 8.124L5.623 13 17 1" />
+            </svg>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
 
-  Create a your stories, Photosnap is a platform for photographers and visual
-  storytellers.
-  It’s the simple way to create and share your photos.
-
-  Monthly
-  Yearly
-
-  Basic
-  Includes basic usage of our platform. Recommended for new and aspiring
-  photographers.
-  $19.00 per month
-  $190.00 per year
-  Pick Plan
-
-  Pro
-  More advanced features available. Recommended for photography veterans and
-  professionals.
-  $39.00 per month
-  $390.00 per year
-  Pick Plan
-
-  Business
-  Additional features available such as more detailed metrics. Recommended for
-  business owners.
-  $99.00 per month
-  $990.00 per year
-  Pick Plan
-
-  Compare
 
   The Features
 
@@ -76,7 +376,17 @@
   We're in Beta. Get your invite today!
 
   Get an invite
-
+  <section class="cta-beta_container">
+    <p class="cta-callout">We're in Beta. Get your invite today!</p>
+    <div class="cta-beta-invite-link">
+      <a href="#">Get an invite</a>
+      <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
+        <g fill="none" fill-rule="evenodd" stroke="#fff">
+          <path d="M0 7h41.864M35.428 1l6 6-6 6" />
+        </g>
+      </svg>
+    </div>
+  </section>
   <footer>
     <img src="./assets/shared/desktop/logo-white.svg"
       alt="Photosnap company logo.">
