@@ -29,3 +29,57 @@ header nav ul li a {
 header .invite-header-link {
   justify-self: end;
 }
+
+footer {
+  background-color: #000;
+  padding: clamp(3.5rem, 0.751vw + 3.324rem, 4rem) clamp(2rem, 12.488vw - 0.927rem, 10.313rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer img {
+  margin-bottom: 2rem;
+}
+footer .social-links {
+  margin-bottom: 3.125rem;
+}
+footer .social-links ul {
+  display: flex;
+  flex-direction: row;
+  gap: 13.33px;
+  margin: 0;
+  padding: 0;
+}
+footer .social-links ul li {
+  list-style-type: none;
+}
+footer .social-links ul li a svg path {
+  fill: #fff;
+}
+footer .footer-nav {
+  margin-bottom: 7.5rem;
+}
+footer .footer-nav ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  gap: 20px;
+}
+footer .footer-nav ul li {
+  list-style-type: none;
+}
+footer .footer-nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+footer .footer-invite-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 2.125rem;
+}
+footer span {
+  color: #fff;
+  opacity: 0.5;
+}
