@@ -144,3 +144,46 @@ footer span {
     background-image: url("../../../assets/shared/desktop/bg-beta.jpg");
   }
 }
+
+.story {
+  position: relative;
+  width: 100%;
+}
+.story picture img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.story .story-copy {
+  z-index: 1;
+  position: absolute;
+  width: 292px;
+  bottom: 40px;
+  left: 40px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.story .story-copy hr {
+  margin: 16px 0;
+}
+.story .story-copy .read-story-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.story .story-gradient {
+  position: absolute;
+  box-sizing: border-box;
+  bottom: 0;
+  left: 0;
+  width: 375px;
+  height: 350px;
+  background: linear-gradient(to top, black 0%, rgba(0, 0, 0, 0.738) 19%, rgba(0, 0, 0, 0.541) 34%, rgba(0, 0, 0, 0.382) 47%, rgba(0, 0, 0, 0.278) 56.5%, rgba(0, 0, 0, 0.194) 65%, rgba(0, 0, 0, 0.126) 73%, rgba(0, 0, 0, 0.075) 80.2%, rgba(0, 0, 0, 0.042) 86.1%, rgba(0, 0, 0, 0.021) 91%, rgba(0, 0, 0, 0.008) 95.2%, rgba(0, 0, 0, 0.002) 98.2%, transparent 100%);
+}
+@media screen and (width >= 1440px) {
+  .story .story-gradient {
+    width: 360px;
+  }
+}
