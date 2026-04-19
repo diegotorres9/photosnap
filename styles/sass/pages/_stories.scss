@@ -1,8 +1,38 @@
 .stories-hero {
-    .stories-hero-image {
-        width: 100vw;
+    picture {
+        img {
+        width: 100%;
         height: 100%;
-        background-image: url(../../../assets/stories/tablet/moon-of-appalacia.jpg);
+        object-fit: contain;
+        }
+    }
+    .stories-hero-copy_container {
+        background-color: #000;
+        color: #fff;
+        padding: clamp(3rem, 1.371rem + 6.948vw, 7.625rem) clamp(1.75rem, -0.099rem + 7.887vw, 7rem);
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        p{
+            margin-bottom: 8px;
+        }
+        .read-story-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 16px;
+        }
+    }
+    @media screen and (width >= 768px) {
+        .stories-hero-copy_container {
+            padding: 0;
+            position: absolute;
+            left: 40px;
+            top: 50%;
+            background-color: transparent;
+            transform: translateY(-50%);
+            width: 387px;
+        }    
     }
 }
 .stories-container {
