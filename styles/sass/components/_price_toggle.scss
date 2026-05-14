@@ -1,0 +1,39 @@
+.pricing-switch_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+}
+input:where([type="checkbox"][role="switch"]) {
+    cursor: pointer;
+    appearance: none;
+    position: relative;
+    font-size: inherit;
+    width: 64px;
+    height: 32px;
+    box-sizing: content-box;
+    border: 1px solid #DFDFDF;
+    border-radius: 2em;
+    vertical-align: text-bottom;
+    margin: auto;
+    color: #000;
+    background-color: #DFDFDF;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translate(0, -50%);
+        box-sizing: border-box;
+        width: 1.5em;
+        height: 1.5em;
+        margin: 0 0.15em;
+        border: 1px solid;
+        border-radius: 50%;
+        background-color: #000;
+        transition: left .30s ease-in;
+    }
+    &:checked::before {
+        left: 32px;
+    }
+}
