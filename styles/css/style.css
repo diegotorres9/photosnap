@@ -6,6 +6,12 @@ header {
   padding: 1.75rem clamp(1.5rem, 13.239vw - 1.603rem, 10.313rem);
   background-color: #fff;
 }
+header .menu-icon {
+  display: none;
+}
+header .menu-icon:hover {
+  cursor: pointer;
+}
 header .header-logo {
   align-self: center;
 }
@@ -28,6 +34,19 @@ header nav ul li a {
 }
 header .invite-header-link {
   justify-self: end;
+}
+@media screen and (width <= 768px) {
+  header .menu-icon {
+    display: block;
+    grid-area: 1/3/2/4;
+    justify-self: end;
+  }
+  header nav {
+    display: none;
+  }
+  header .invite-header-link {
+    display: none;
+  }
 }
 
 footer {
@@ -370,6 +389,7 @@ input:where([type=checkbox][role=switch]):checked::before {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: clamp(4rem, 1.887rem + 9.014vw, 10rem);
 }
 .feature-table_container .mobile_comparisons table {
   text-align: left;
@@ -422,17 +442,88 @@ input:where([type=checkbox][role=switch]):checked::before {
   margin: 10px auto;
   border-collapse: collapse;
 }
+.feature-table_container .comparisons table caption {
+  caption-side: top;
+  padding-bottom: 64px;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+@media screen and (width >= 1440px) {
+  .feature-table_container .comparisons table {
+    width: 50%;
+    margin: 50px auto;
+  }
+}
 .feature-table_container .comparisons table thead {
   border-bottom: 1px solid #000;
 }
 .feature-table_container .comparisons table thead th {
   padding-bottom: 24px;
 }
+.feature-table_container .comparisons table thead th:not(:first-child) {
+  margin: 0 auto;
+}
 .feature-table_container .comparisons table tbody tr {
   border-bottom: 1px solid #D8D8D8;
 }
 .feature-table_container .comparisons table tbody tr td {
   padding: 24px 0;
+}
+.feature-table_container .comparisons table tbody tr td svg {
+  margin-left: 0px;
+}
+.feature-table_container .comparisons table tbody tr td:nth-child(2) svg {
+  margin-left: 10px;
+}
+.feature-table_container .comparisons table tbody tr td:nth-child(3) svg {
+  margin-left: 5px;
+}
+.feature-table_container .comparisons table tbody tr td:nth-child(4) svg {
+  margin-left: 20px;
+}
+
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 32px;
+}
+.mobile-menu ul {
+  padding: 0;
+  margin-bottom: 20px;
+}
+.mobile-menu ul li {
+  list-style: none;
+  text-transform: uppercase;
+}
+.mobile-menu ul li:not(:last-child) {
+  margin-bottom: 20px;
+}
+.mobile-menu ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+}
+.mobile-menu ul li a:hover {
+  cursor: pointer;
+}
+.mobile-menu hr {
+  width: 310px;
+  height: 1px;
+  background-color: #979797;
+  margin-bottom: 20px;
+}
+.mobile-menu .mobile-invite-link {
+  color: #fff;
+  background-color: #000;
+  padding: 14px 69px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 310px;
 }
 
 .content-wrapper {

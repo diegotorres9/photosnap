@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: clamp(4rem, 1.887rem + 9.014vw, 10rem);
     .mobile_comparisons {
         table {
             text-align: left;
@@ -51,10 +52,24 @@
             width: 90%;
             margin: 10px auto;
             border-collapse: collapse;
+            caption {
+                caption-side: top;
+                padding-bottom: 64px;
+                font-size: 40px;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+        @media screen and (width >= 1440px) {
+            width: 50%;
+            margin: 50px auto;
+        }
             thead {
                 border-bottom: 1px solid #000;
                 th {
                     padding-bottom: 24px;
+                    &:not(:first-child) {
+                        margin: 0 auto;
+                    }
                 }
             }
             tbody {
@@ -62,6 +77,24 @@
                     border-bottom: 1px solid #D8D8D8;
                     td{
                         padding: 24px 0;
+                        svg {
+                            margin-left: 0px;
+                        }
+                        &:nth-child(2) {
+                            svg {
+                                margin-left: 10px;
+                            }
+                        }
+                        &:nth-child(3) {
+                            svg {
+                                margin-left: 5px;
+                            }
+                        }
+                        &:nth-child(4) {
+                            svg {
+                                margin-left: 20px;
+                            }
+                        }
                     }
                 }
             }
