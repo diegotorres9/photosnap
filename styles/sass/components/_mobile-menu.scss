@@ -1,10 +1,15 @@
 .mobile-menu {
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: 32px;
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    transition: all 0.75s allow-discrete;
+    opacity: 0;
     ul {
         padding: 0;
         margin-bottom: 20px;
@@ -39,4 +44,8 @@
         font-weight: 700;
         width: 310px;
     }
+}
+.mobile-anim {
+    opacity: 1;
+    display: flex;
 }
