@@ -1,0 +1,40 @@
+h1, .main-heading {
+    font-family: 'DM sans', sans-serif;
+    font-weight: 700;
+    font-size: clamp(2rem, 1.824rem + 0.751vw, 2.5rem);
+    letter-spacing: clamp(0.208rem, 0.19rem + 0.079vw, 0.261rem);
+    line-height: clamp(2.5rem, 2.324rem + 0.751vw, 3rem);
+}
+h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+}
+h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+}
+h4 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+}
+a {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
