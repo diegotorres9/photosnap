@@ -45,6 +45,29 @@ a {
   text-decoration: none;
 }
 
+.stories_link a {
+  color: #000;
+}
+
+.copy-invite_link a {
+  color: #fff;
+}
+
+.read-story_link {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+span {
+  font-family: "DM Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
 header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -78,6 +101,7 @@ header nav ul li {
 }
 header nav ul li a {
   text-decoration: none;
+  color: #000;
 }
 header .invite-header-link {
   justify-self: end;
