@@ -102,6 +102,10 @@ header nav ul li {
 header nav ul li a {
   text-decoration: none;
   color: #000;
+  transition: opacity 0.5s ease;
+}
+header nav ul li a:hover {
+  opacity: 0.3;
 }
 header .invite-header-link {
   justify-self: end;
@@ -137,6 +141,7 @@ footer .social-links {
 footer .social-links ul {
   display: flex;
   flex-direction: row;
+  text-align: center;
   gap: 13.33px;
   margin: 0;
   padding: 0;
@@ -146,6 +151,21 @@ footer .social-links ul li {
 }
 footer .social-links ul li a svg path {
   fill: #fff;
+}
+footer .social-links ul li:first-child > a > svg:hover > path {
+  fill: url(#facebook_gradient);
+}
+footer .social-links ul li:nth-child(2) > a > svg:hover > path {
+  fill: url(#youtube_gradient);
+}
+footer .social-links ul li:nth-child(3) > a > svg:hover > path {
+  fill: url(#twitter_gradient);
+}
+footer .social-links ul li:nth-child(4) > a > svg:hover > path {
+  fill: url(#pinterest_gradient);
+}
+footer .social-links ul li:nth-child(5) > a > svg:hover > path {
+  fill: url(#instagram_gradient);
 }
 footer .footer-nav {
   margin-bottom: 7.5rem;
@@ -162,6 +182,10 @@ footer .footer-nav ul li {
 footer .footer-nav ul li a {
   text-decoration: none;
   color: #fff;
+  transition: opacity 0.5s ease;
+}
+footer .footer-nav ul li a:hover {
+  opacity: 0.3;
 }
 footer .footer-invite-container {
   display: flex;

@@ -15,6 +15,7 @@ footer {
         ul {
             display: flex;
             flex-direction: row;
+            text-align: center;
             gap: 13.33px;
             margin: 0;
             padding: 0;
@@ -26,6 +27,21 @@ footer {
                             fill: #fff;
                         }
                     }
+                }
+                &:first-child  > a > svg:hover > path {
+                    fill: url(#facebook_gradient);
+                }
+                &:nth-child(2) > a > svg:hover > path {
+                    fill: url(#youtube_gradient);
+                }
+                &:nth-child(3) > a > svg:hover > path {
+                    fill: url(#twitter_gradient);
+                }
+                &:nth-child(4) > a > svg:hover > path {
+                    fill: url(#pinterest_gradient);
+                }
+                &:nth-child(5) > a > svg:hover > path {
+                    fill: url(#instagram_gradient);
                 }
             }
         }
@@ -43,6 +59,10 @@ footer {
                 a {
                     text-decoration: none;
                     color: #fff;
+                    transition: opacity .5s ease;
+                    &:hover {
+                        opacity: 0.3;
+                    }
                 }
             }
         }
