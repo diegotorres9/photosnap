@@ -8,6 +8,13 @@
             object-fit: contain;
         }
     }
+    cursor: pointer;
+    transition: transform .5s ease-out;
+    &:hover {
+        transform: translateY(-24px);
+        border-bottom: 6px solid;
+        border-image: linear-gradient(90deg,rgba(255, 197, 147, 1) 0%, rgba(188, 113, 152, 1) 52%, rgba(90, 119, 255, 1) 100%) 1;
+    }
     .story-copy {
         z-index: 1;
         position: absolute;
