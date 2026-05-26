@@ -1,12 +1,15 @@
 const menuIcon = document.querySelector(".menu-icon");
 console.log(menuIcon);
 const mobileMenu = document.querySelector(".mobile-menu");
+const closeMobileMenu = document.querySelector(".close-menu-icon");
 
 menuIcon.addEventListener("click", () => {
-    // if(mobileMenu.style.display === "none") {
-    //     mobileMenu.style.display = "flex";
-    // } else {
-    //     mobileMenu.style.display = "none";
-    // }
+    mobileMenu.classList.toggle("mobile-anim");
+    closeMobileMenu.style.display = "block";
+    menuIcon.style.display = "none";
+})
+closeMobileMenu.addEventListener("click", () => {
+    menuIcon.style.display = "block";
+    closeMobileMenu.style.display = "none";
     mobileMenu.classList.toggle("mobile-anim");
 })

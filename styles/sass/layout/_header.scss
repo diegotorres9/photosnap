@@ -45,6 +45,13 @@ header{
             grid-area: 1 / 3 / 2 / 4;
             justify-self: end;
         }
+        .close-menu-icon{
+            display: block;
+            grid-area: 1 / 3 / 2 / 4;
+            justify-self: end;
+            display: none;
+            cursor: pointer;
+        }
         nav {
             display: none;
         }
