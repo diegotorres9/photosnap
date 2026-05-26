@@ -72,14 +72,18 @@ footer {
         flex-direction: row;
         align-items: center;
         margin-bottom: 2.125rem;
-        // justify-self: end;
-        // align-self: self-start;
+        gap: 22px;
+        cursor: pointer;
+        a {
+            color: #fff;
+        }
+        &:hover > a {
+            border-bottom: 1px solid #fff;
+        }
     }
     span {
         color: #fff;
         opacity: 0.5;
-        // justify-self: end;
-        // align-self: self-end;
     }
     @media screen and (width >= 768px) {
         display: grid;

@@ -1,0 +1,22 @@
+.invite-header-link {
+    background-color: #000;
+    padding: 12px 24px;
+    color: #fff;
+    transition: all .35s ease-in;
+    &:hover {
+        background-color: #DFDFDF;
+        color: #000;
+    }
+}
+.content_link {
+    transition: all .5s ease-in;
+    &:hover > a {
+        border-bottom: 1px solid #fff;
+    }
+}
+.stories_link, .designed_link {
+    transition: all .5s ease-in;
+    &:hover > a {
+        border-bottom: 1px solid #000;
+    }
+}
