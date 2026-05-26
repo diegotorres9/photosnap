@@ -5,6 +5,7 @@ header{
     justify-content: center;
     padding: 1.75rem clamp(1.5rem, 13.239vw - 1.603rem, 10.313rem);
     background-color: #fff;
+    z-index: 9999;
     .menu-icon, .close-menu-icon {
         display: none;
         &:hover {

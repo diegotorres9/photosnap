@@ -10,6 +10,7 @@
     width: 100%;
     transition: all 0.75s allow-discrete;
     opacity: 0;
+    z-index: 9999;
     ul {
         padding: 0;
         margin-bottom: 20px;

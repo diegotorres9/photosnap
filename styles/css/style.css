@@ -75,6 +75,7 @@ header {
   justify-content: center;
   padding: 1.75rem clamp(1.5rem, 13.239vw - 1.603rem, 10.313rem);
   background-color: #fff;
+  z-index: 9999;
 }
 header .menu-icon, header .close-menu-icon {
   display: none;
@@ -246,6 +247,18 @@ footer span {
     display: flex;
     flex-direction: row;
   }
+}
+
+.overlay {
+  position: absolute;
+  top: 72px;
+  left: 0;
+  width: 100vw;
+  height: 0;
+  background-color: #000;
+  opacity: 0.6;
+  z-index: 9998;
+  transition: all 0.75s allow-discrete;
 }
 
 .cta-beta_container {
@@ -618,6 +631,7 @@ input:where([type=checkbox][role=switch]):checked::before {
   width: 100%;
   transition: all 0.75s allow-discrete;
   opacity: 0;
+  z-index: 9999;
 }
 .mobile-menu ul {
   padding: 0;
