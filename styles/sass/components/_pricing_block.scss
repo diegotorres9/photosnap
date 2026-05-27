@@ -6,6 +6,17 @@
     text-align: center;
     gap: 40px;
     background-color: #f5f5f5;
+    .cost-container {
+        display: flex;
+        flex-direction: column;
+            span:first-child {
+            font-family: 'DM Sans', sans-serif;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 48px;
+            letter-spacing: 4.17px;
+        }
+    }
     &__pro {
         position: relative;
         background-color: #000;

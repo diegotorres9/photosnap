@@ -258,7 +258,6 @@ footer span {
   background-color: #000;
   opacity: 0.6;
   z-index: 9998;
-  transition: all 0.75s allow-discrete;
 }
 
 .cta-beta_container {
@@ -445,6 +444,17 @@ footer span {
   text-align: center;
   gap: 40px;
   background-color: #f5f5f5;
+}
+.pricing-block .cost-container, .pricing-block__pro .cost-container {
+  display: flex;
+  flex-direction: column;
+}
+.pricing-block .cost-container span:first-child, .pricing-block__pro .cost-container span:first-child {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 4.17px;
 }
 .pricing-block__pro, .pricing-block__pro__pro {
   position: relative;
@@ -696,6 +706,30 @@ input:where([type=checkbox][role=switch]):checked::before {
 }
 .stories_link:hover > a, .designed_link:hover > a {
   border-bottom: 1px solid #000;
+}
+
+.pick-plan_btn {
+  background-color: #000;
+  padding: 12px 126px;
+  border: none;
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 2px;
+  white-space: nowrap;
+  transition: all 0.25s ease;
+}
+.pick-plan_btn:hover {
+  cursor: pointer;
+  background-color: #DFDFDF;
+  color: #000;
+}
+
+.--pro {
+  background-color: #fff;
+  color: #000;
 }
 
 .content-wrapper {

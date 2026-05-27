@@ -20,3 +20,25 @@
         border-bottom: 1px solid #000;
     }
 }
+.pick-plan_btn {
+    background-color: #000;
+    padding: 12px 126px;
+    border: none;
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    transition: all 0.25s ease;
+    &:hover {
+        cursor: pointer;
+        background-color: #DFDFDF;
+        color: #000;
+    }
+}
+.--pro {
+    background-color: #fff;
+    color: #000;
+}
