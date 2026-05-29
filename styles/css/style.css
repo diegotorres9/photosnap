@@ -449,7 +449,7 @@ footer span {
   display: flex;
   flex-direction: column;
 }
-.pricing-block .cost-container span:first-child, .pricing-block__pro .cost-container span:first-child {
+.pricing-block .cost-container p, .pricing-block .cost-container span:first-child, .pricing-block__pro .cost-container p, .pricing-block__pro .cost-container span:first-child {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
   font-size: 40px;
