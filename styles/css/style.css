@@ -952,3 +952,7 @@ input:where([type=checkbox][role=switch]):checked::before {
     grid-area: 1/2/4/3;
   }
 }
+
+.is-active-switch {
+  opacity: 0.5;
+}

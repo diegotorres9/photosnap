@@ -3,10 +3,9 @@ let basicCost = document.querySelector(".basic-cost");
 let proCost = document.querySelector(".pro-cost");
 let businessCost = document.querySelector(".business-cost");
 let perTime = document.querySelectorAll(".per-time");
+const month = document.querySelector(".month");
+const year = document.querySelector(".year");
 
-// perTimeChange = perTime.map(time => time.textContent);
-
-console.log(perTime);
 
 pricingSwitch.addEventListener("change", () => {
     // window.alert("Im toggled");
@@ -17,6 +16,8 @@ pricingSwitch.addEventListener("change", () => {
         perTime.forEach((time) => {
             time.textContent = "per year";
         });
+        year.classList.toggle("is-active-switch");
+        month.classList.toggle("is-active-switch");
     } else {
         basicCost.textContent = "19.00"
         proCost.textContent = "39.00";
@@ -24,6 +25,8 @@ pricingSwitch.addEventListener("change", () => {
         perTime.forEach((time) => {
             time.textContent = "per month";
         });
+        year.classList.toggle("is-active-switch");
+        month.classList.toggle("is-active-switch");
     }
     
 });
