@@ -922,6 +922,12 @@ input:where([type=checkbox][role=switch]):checked::before {
   justify-content: center;
   gap: clamp(2.5rem, 2.324rem + 0.751vw, 3rem);
 }
+.pricing_container .pricing-switch_container span {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+}
 .pricing_container .pricing-blocks-container {
   display: grid;
   grid-template-columns: 1fr;
