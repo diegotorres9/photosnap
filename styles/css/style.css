@@ -392,6 +392,9 @@ footer span {
 .feature h4 {
   margin-bottom: 16px;
 }
+.feature:nth-child(2) {
+  padding-top: 35px;
+}
 
 .page-hero {
   display: flex;
