@@ -416,6 +416,11 @@ footer span {
   height: 6px;
   background: linear-gradient(2deg, rgb(255, 197, 147) 0%, rgb(188, 113, 152) 52%, rgb(90, 119, 255) 100%);
 }
+.page-hero .page-hero_copy h1 {
+  text-transform: uppercase;
+  line-height: 48px;
+  letter-spacing: 4.17px;
+}
 @media screen and (width >= 768px) {
   .page-hero {
     display: grid;
@@ -550,6 +555,13 @@ input:where([type=checkbox][role=switch]):checked::before {
 .feature-table_container .mobile_comparisons table thead tr {
   border: none;
 }
+.feature-table_container .mobile_comparisons table thead tr th {
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
 .feature-table_container .mobile_comparisons table tbody {
   display: flex;
   flex-direction: column;
@@ -564,9 +576,23 @@ input:where([type=checkbox][role=switch]):checked::before {
 }
 .feature-table_container .mobile_comparisons table tbody tr th {
   grid-area: 1/1/2/4;
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 .feature-table_container .mobile_comparisons table tbody tr td {
   margin-bottom: 24px;
+}
+.feature-table_container .mobile_comparisons table tbody tr td span {
+  font-family: "DM Sans", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.67px;
+  text-transform: uppercase;
+  color: #000;
+  opacity: 0.5;
 }
 .feature-table_container .mobile_comparisons table tbody tr td:first-child {
   grid-area: 2/1/3/2;
@@ -594,10 +620,12 @@ input:where([type=checkbox][role=switch]):checked::before {
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
+  font-family: "DM Sans", sans-serif;
+  letter-spacing: 4.17px;
 }
 @media screen and (width >= 1440px) {
   .feature-table_container .comparisons table {
-    width: 50%;
+    width: 60%;
     margin: 50px auto;
   }
 }
@@ -605,13 +633,25 @@ input:where([type=checkbox][role=switch]):checked::before {
   border-bottom: 1px solid #000;
 }
 .feature-table_container .comparisons table thead th {
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
   padding-bottom: 24px;
+  text-transform: uppercase;
 }
 .feature-table_container .comparisons table thead th:not(:first-child) {
   margin: 0 auto;
 }
 .feature-table_container .comparisons table tbody tr {
   border-bottom: 1px solid #D8D8D8;
+}
+.feature-table_container .comparisons table tbody tr th {
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 .feature-table_container .comparisons table tbody tr td {
   padding: 24px 0;

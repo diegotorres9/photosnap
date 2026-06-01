@@ -14,6 +14,13 @@
                 border-bottom: 2px solid #000;
                 tr {
                     border: none;
+                    th {
+                        font-family: 'DM Sans', sans-serif;
+                        font-size: 12px;
+                        font-weight: 700;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                    }
                 }
             }
             tbody{
@@ -28,9 +35,23 @@
                 row-gap: 16px;
                 th {
                     grid-area: 1 / 1 / 2 / 4;
+                    font-family: 'DM Sans', sans-serif;
+                    font-size: 12px;
+                    font-weight: 700;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
                 }
                 td {
                     margin-bottom: 24px;
+                    span {
+                        font-family: 'DM Sans', sans-serif;
+                        font-size: 10px;
+                        font-weight: 700;
+                        letter-spacing: 1.67px;
+                        text-transform: uppercase;
+                        color: #000;
+                        opacity: 0.5;
+                    }
                 }
                 td:first-child {
                     grid-area: 2 / 1 / 3 / 2;
@@ -58,15 +79,22 @@
                 font-size: 40px;
                 font-weight: 700;
                 text-transform: uppercase;
+                font-family: 'DM Sans', sans-serif;
+                letter-spacing: 4.17px;
             }
         @media screen and (width >= 1440px) {
-            width: 50%;
+            width: 60%;
             margin: 50px auto;
         }
             thead {
                 border-bottom: 1px solid #000;
                 th {
+                    font-family: 'DM Sans', sans-serif;
+                    font-size: 12px;
+                    font-weight: 700;
+                    letter-spacing: 2px;
                     padding-bottom: 24px;
+                    text-transform: uppercase;
                     &:not(:first-child) {
                         margin: 0 auto;
                     }
@@ -75,6 +103,13 @@
             tbody {
                 tr {
                     border-bottom: 1px solid #D8D8D8;
+                    th {
+                        font-family: 'DM Sans', sans-serif;
+                        font-size: 12px;
+                        font-weight: 700;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                    }
                     td{
                         padding: 24px 0;
                         svg {

@@ -21,6 +21,11 @@
             height: 6px;
             background: linear-gradient(2deg,rgba(255, 197, 147, 1) 0%, rgba(188, 113, 152, 1) 52%, rgba(90, 119, 255, 1) 100%);
         }
+        h1 {
+            text-transform: uppercase;
+            line-height: 48px;
+            letter-spacing: 4.17px;
+        }
     }
     @media screen and (width >= 768px) {
         display: grid;
