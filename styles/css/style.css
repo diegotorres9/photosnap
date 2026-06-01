@@ -420,6 +420,14 @@ footer span {
   text-transform: uppercase;
   line-height: 48px;
   letter-spacing: 4.17px;
+  margin-bottom: 16px;
+}
+.page-hero .page-hero_copy p {
+  font-weight: 400;
+  line-height: 25px;
+  font-size: 15px;
+  color: #fff;
+  opacity: 0.6;
 }
 @media screen and (width >= 768px) {
   .page-hero {
@@ -449,6 +457,19 @@ footer span {
   text-align: center;
   gap: 40px;
   background-color: #f5f5f5;
+}
+.pricing-block .pricing-copy h2, .pricing-block__pro .pricing-copy h2 {
+  margin-bottom: 20px;
+}
+.pricing-block .pricing-copy p, .pricing-block__pro .pricing-copy p {
+  font-size: 15px;
+  line-height: 25px;
+  color: #000;
+  opacity: 0.6;
+}
+.pricing-block__pro .pricing-copy p, .pricing-block__pro__pro .pricing-copy p {
+  color: #fff;
+  opacity: 0.6;
 }
 .pricing-block .cost-container, .pricing-block__pro .cost-container {
   display: flex;

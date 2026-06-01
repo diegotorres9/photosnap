@@ -6,6 +6,25 @@
     text-align: center;
     gap: 40px;
     background-color: #f5f5f5;
+    .pricing-copy {
+        h2 {
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 15px;
+            line-height: 25px;
+            color: #000;
+            opacity: 0.6;
+        }
+    }
+    &__pro{
+        .pricing-copy {
+            p {
+                color: #fff;
+                opacity: 0.6;
+            }
+        }
+    }
     .cost-container {
         display: flex;
         flex-direction: column;
