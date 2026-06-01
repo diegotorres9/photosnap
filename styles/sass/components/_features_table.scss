@@ -20,6 +20,7 @@
                         font-weight: 700;
                         letter-spacing: 2px;
                         text-transform: uppercase;
+                        padding-bottom: 24px;
                     }
                 }
             }
@@ -33,6 +34,9 @@
                 grid-template-rows: 16px 1fr;
                 border-bottom: 1px solid #D8D8D8;
                 row-gap: 16px;
+                &:first-child {
+                    padding-top: 24px;
+                }
                 th {
                     grid-area: 1 / 1 / 2 / 4;
                     font-family: 'DM Sans', sans-serif;
