@@ -24,8 +24,10 @@
         font-weight: 700;
         text-transform: uppercase;
         line-height: clamp(2.5rem, 2.324rem + 0.751vw, 3rem);
+        letter-spacing: 4.17px;
     }
     .cta-beta-invite-link {
+        justify-self: end;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -43,8 +45,9 @@
         }
     }
     @media screen and (width >= 768px) {
-        flex-direction: row;
-        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
         justify-content: space-between;
         background-image: url("../../../assets/shared/tablet/bg-beta.jpg");
         .gradient {
@@ -53,6 +56,9 @@
             height: 100%;
             width: 8px;
             background: linear-gradient(80deg,rgba(255, 197, 147, 1) 0%, rgba(188, 113, 152, 1) 52%, rgba(90, 119, 255, 1) 100%);
+        }
+        p {
+            margin-right: clamp(100px, -22.509rem + 62.649vw, 200px);
         }
     }
     @media screen and (width >= 1440px) {
