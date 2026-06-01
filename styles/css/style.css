@@ -450,6 +450,19 @@ footer span {
   gap: 40px;
   background-color: #f5f5f5;
 }
+.pricing-block .pricing-copy h2, .pricing-block__pro .pricing-copy h2 {
+  margin-bottom: 20px;
+}
+.pricing-block .pricing-copy p, .pricing-block__pro .pricing-copy p {
+  font-size: 15px;
+  line-height: 25px;
+  color: #000;
+  opacity: 0.6;
+}
+.pricing-block__pro .pricing-copy p, .pricing-block__pro__pro .pricing-copy p {
+  color: #fff;
+  opacity: 0.6;
+}
 .pricing-block .cost-container, .pricing-block__pro .cost-container {
   display: flex;
   flex-direction: column;
