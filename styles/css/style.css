@@ -265,7 +265,7 @@ footer span {
   position: relative;
   padding: clamp(4rem, 0.376vw + 3.912rem, 4.25rem) clamp(2rem, 12.488vw - 0.927rem, 10.313rem);
   width: 100vw;
-  background-image: url("/assets/shared/mobile/bg-beta.jpg");
+  background-image: url("/photosnap/assets/shared/mobile/bg-beta.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -314,7 +314,7 @@ footer span {
     grid-template-columns: 1fr auto;
     grid-template-rows: 1fr;
     justify-content: space-between;
-    background-image: url("/assets/shared/tablet/bg-beta.jpg");
+    background-image: url("/photosnap/assets/shared/tablet/bg-beta.jpg");
   }
   .cta-beta_container .gradient {
     top: 0;
@@ -330,7 +330,7 @@ footer span {
 @media screen and (width >= 1440px) {
   .cta-beta_container {
     grid-template-columns: repeat(2, 1fr);
-    background-image: url("/assets/shared/desktop/bg-beta.jpg");
+    background-image: url("/photosnap/assets/shared/desktop/bg-beta.jpg");
   }
 }
 
