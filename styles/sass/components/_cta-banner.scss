@@ -2,7 +2,6 @@
     position: relative;
     padding: clamp(4rem, 0.376vw + 3.912rem, 4.25rem) clamp(2rem, 12.488vw - 0.927rem, 10.313rem);
     width: 100vw;
-    height: clamp(18rem, -0.751vw + 18.176rem, 17.5rem);
     background-image: url("../../../assets/shared/mobile/bg-beta.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,6 +18,7 @@
     }
     p{
         font-family: sans-serif;
+        font-size: 32px;
         font-size:clamp(2rem, 0.751vw + 1.824rem, 2.5rem);
         color: #fff;
         font-weight: 700;
@@ -46,7 +46,7 @@
     }
     @media screen and (width >= 768px) {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr auto;
         grid-template-rows: 1fr;
         justify-content: space-between;
         background-image: url("../../../assets/shared/tablet/bg-beta.jpg");
@@ -62,6 +62,7 @@
         }
     }
     @media screen and (width >= 1440px) {
+        grid-template-columns: repeat(2, 1fr);
         background-image: url("../../../assets/shared/desktop/bg-beta.jpg");
     }
 }
